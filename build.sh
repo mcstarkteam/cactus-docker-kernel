@@ -6,7 +6,7 @@ export SUBARCH="arm"
 export PATH="/usr/lib/ccache:$PATH"
 export KBUILD_BUILD_USER="mcstark"
 export KBUILD_BUILD_HOST="Github"
-export branch="ten"
+export branch="10-alps"
 export device="cactus"
 export LOCALVERSION="-wulan17"
 export kernel_repo="https://github.com/wulan17/android_kernel_xiaomi_mt6765.git"
@@ -50,7 +50,7 @@ function success(){
 	Host : ""$KBUILD_BUILD_HOST""
 	Commit : ""$last_tag""
 	Compiler : ""$(${CROSS_COMPILE}gcc --version | head -n 1)""
-	Date : ""$(env TZ=Asia/Jakarta date)""" https://api.telegram.org/bot$TELEGRAM_TOKEN/sendDocument
+	Date : ""$(env TZ=Asia/Jakarta date)"""
 	
 	exit 0
 }
