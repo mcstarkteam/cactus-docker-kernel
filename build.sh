@@ -6,7 +6,7 @@ export TELEGRAM_CHAT
 export ARCH="arm"
 export SUBARCH="arm"
 export PATH="/usr/lib/ccache:$PATH"
-export KBUILD_BUILD_USER="wulan17"
+export KBUILD_BUILD_USER="mcstark"
 export KBUILD_BUILD_HOST="Github"
 export branch="ten"
 export device="cactus"
